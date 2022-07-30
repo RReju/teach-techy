@@ -3,8 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/03ca51611f.js" crossorigin="anonymous"></script>
     <title>Teach Techy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <style>
+       .darken-image{
+        filter: brightness(50%);
+       }
+    </style>
+
   </head>
   <body>
     <!-- Navbar Section Start -->
@@ -46,7 +54,69 @@
       </nav>
     </section>
     <!-- Navbar Section End -->
+    <!-- Image Slider -->
+    <section class="container mb-5">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 90vh"  src="images/cover/cover-1.png" class="d-block w-100 darken-image" alt="...">
+            <div class="carousel-caption text-info">
+              <h1>First slide label</h1>
+              <p>Some representative placeholder content for the first slide.</p>
+              <div>
+                <button type="button" class="btn btn-info">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 90vh"  src="images/cover/cover-2.jpg" class="d-block w-100 darken-image" alt="...">
+            <div class="carousel-caption text-info">
+              <h1>Second slide label</h1>
+              <p>Some representative placeholder content for the first slide.</p>
+              <div>
+                <button type="button" class="btn btn-info">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 90vh"  src="images/cover/cover-3.jpg" class="d-block w-100 darken-image" alt="...">
+            <div class="carousel-caption text-info">
+              <h1>Third slide label</h1>
+              <p>Some representative placeholder content for the first slide.</p>
+              <div>
+                <button type="button" class="btn btn-info">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Image Slider End -->
     
+    <!-- Footer Section -->
+
+    <footer class="bg-dark text-center text-light">
+      <div class="py-5">
+        <h1>Teach Techy</h1>
+        <p>Office 41, Zawaya Buildin, Ghala Muscat,</p>
+        <p>Sultanate of Oman</p>
+        <p>Privacy Ploicy  |   Terms of use</p>
+        <div>
+          <a href="https://web.facebook.com/raajrezaul" class="text-decoration-none text-light mx-2" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/RaajRezaul" class="text-decoration-none text-light mx-2" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+          <a href="https://www.instagram.com/rezaulreju" class="text-decoration-none text-light mx-2" target="_blank"><i class="fa-brands fa-instagram"></i></i></a> 
+        </div>
+      </div>
+    </footer>
+
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
